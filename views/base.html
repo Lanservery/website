@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="shortcut icon" href="/static/img/logoImg.png">
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <link rel="stylesheet" href="/static/css/common.css">
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./static/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/font_2102123_gy13m3mq93k.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/common.js"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="head-top">
+            <div class="inner">
+                <div class="logo">
+                    <h1><a href="/"><img src="/static/img/logo.png" alt="logo">小米</a></h1>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li class="active"><a href="/">首页</a></li>
+                        <li><a href="#">酷玩</a></li>
+                        <li><a href="#">导购</a></li>
+                        <li><a href="#">试用</a></li>
+                        <li><a href="#">报告</a></li>
+                    </ul>
+                </div>
+                <a href="/login" class="login">登陆</a>
+                <form class="navbar-form navbar-left" role="search"action="/search" style="margin-top: 28px;margin-left: 50px;">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="快来搜一下！">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                        </span>
+                    </div>
+                </form>
+                <span class="search">
+                </span>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="inner">
+                <h2>幻响小贝HIFI2.1音箱</h2>
+                <p class="label">
+                    <span>123人申请</span>
+                    <span>￥500</span>
+                    <span>20台</span>
+                </p>
+                <p class="time">申请时间剩余：13天5小时37分钟</p>
+                <a href="#" class="btn">立即申请</a>
+            </div>
+        </div>
+
+    </header>
+    
+    {% block main %}{% endblock %}
+
+    <footer>
+        <div class="down-box">
+            <div class="inner">
+                <div class="fix">
+                    <dl>
+                        <img src="./static/img/code.png" alt="" width="160" height="160">
+                    </dl>
+                    <dl>
+                        <dt>
+                            <img src="./static/img/logoImg.png" alt="">
+                        </dt>
+                        <dd>全球酷玩导购试用平台<br>酷.新奇.好玩.品质</dd>
+                        <dd style="margin-top: 13px;">微信添加"jguojguo"<br>获取我们的服务</dd>
+                    </dl>
+                    <dl>
+                        <dt>免费试用</dt>
+                        <dd>试用流程</dd>
+                        <dd>如何提高成功率</dd>
+                    </dl>
+                    <dl>
+                        <dt>友情链接</dt>
+                        <dd>
+                            <a href="#">智东西</a>
+                            <a href="#">WEIBUSI</a>
+                        </dd>
+                        <dd>
+                            <a href="#">搜狐IT</a>
+                            <a href="#">腾讯科技</a>
+                        </dd>
+                        <dd>
+                            <a href="#">搜狐数码</a>
+                            <a href="#">凤凰科技</a>
+                        </dd>
+                        <dd>
+                            <a href="#">凤凰数码</a>
+                            <a href="#">PConline</a>
+                        </dd>
+                        <dd>
+                            <a href="#">泡泡网</a>
+                            <a href="#">3W咖啡</a>
+                        </dd>
+                        <dd>
+                            <a href="#">ZUK社区</a>
+                            <a href="#">亿觅emie</a>
+                        </dd>
+                        <dd>
+                            <a href="#">极客公园</a>
+                            <a href="#">易迅意启航</a>
+                        </dd>
+                        <dd>
+                            <a href="#">果库</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>购买攻略</dt>
+                        <dd><a href="#">美亚海淘教程</a></dd>
+                        <dd><a href="#">日亚海淘教程</a></dd>
+                        <dd><a href="#">海淘转运攻略</a></dd>
+                        <dd><a href="#">kickstarter 众筹购买攻略</a></dd>
+                        <dd><a href="#">indiegogo 众筹购买攻略</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>厂商合作</dt>
+                        <dd><a href="#">关于极果</a></dd>
+                        <dd><a href="#">联系我们</a></dd>
+                        <dd><a href="#">商务合作：BD@jiguo.com</a></dd>
+                        <dd><a href="#">CEO邮箱：CEO@jiguo.com</a></dd>
+                    </dl>
+                    <dl></dl>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="javascript:void(0)" id="backTop"><i class="fa fa-angle-up" style="font-size:45px;color:black;padding:1px 8px"></i></a>
+</body>
+</html>
+
